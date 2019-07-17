@@ -15,3 +15,24 @@
   align-self: center;
   font-weight: bold;
 }
+
+@media screen and (max-width: 400px) {
+  .data {
+    flex-wrap: wrap;
+  }
+  
+  .values-title{
+    font-size: 10px;
+  }
+  .value{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 315px) {
+  .data {
+    justify-content: center;
+  }
+  .values-container {
+    margin-right: 10px;
+  }
+}

@@ -101,7 +101,12 @@ const infotoshow = {
   navalues: [
     { id: 0, title: "Number of items", value: "56", subvalue: "" },
     { id: 1, title: "Team Ranking", value: "8", subvalue: "/24" },
-    { id: 1, title: "Project Visit", value: "2,2334", subvalue: "" }
+    { id: 2, title: "Project Visit", value: "2,2334", subvalue: "" }
+  ],
+  graph: [
+    { id: 0, title: "Personal", value: "34" },
+    { id: 1, title: "Team", value: "22" },
+    { id: 2, title: "Departament", value: "23" }
   ]
 };
 

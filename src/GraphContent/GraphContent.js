@@ -1,8 +1,8 @@
 import React from "react";
-
 import "./graphcontent.css";
-
-const GraphContent = () => {
+import GraphValues from "../GraphValues/GraphValues";
+const GraphContent = props => {
+  let datagraph = props.graphvalues;
   return (
     <div className="graph-container">
       <div className="graph-header">
@@ -15,26 +15,9 @@ const GraphContent = () => {
           alt="graph"
         />
         <div className="graph-info-container">
-          <div className="graph-info">
-            <div className="graph-title">
-              <span className="title-container">Personal</span>
-            </div>
-            <div className="graph-value">156</div>
-          </div>
-          <div className="divider" />
-          <div className="graph-info">
-            <div className="graph-title">
-              <span className="title-container">Team</span>
-            </div>
-            <div className="graph-value">156</div>
-          </div>
-          <div className="divider" />
-          <div className="graph-info">
-            <div className="graph-title">
-              <span className="title-container">Departament</span>
-            </div>
-            <div className="graph-value">156</div>
-          </div>
+          {datagraph.map(values => {
+            return <GraphValues props={values} key={values.id} />;
+          })}
         </div>
       </div>
     </div>

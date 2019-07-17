@@ -63,7 +63,7 @@ header {
   margin-right: 13px;
 }
 .divider:last-child {
- display: none
+  display: none;
 }
 
 .container-datavalue {
@@ -96,28 +96,6 @@ header {
   }
 }
 
-@media screen and (max-width: 400px) {
-  .data {
-    flex-wrap: wrap;
-  }
-  .graph-info-container {
-    flex-wrap: wrap;
-  }
-  .values-title{
-    font-size: 10px;
-  }
-  .value{
-    font-size: 20px;
-  }
-}
-@media screen and (max-width: 315px) {
-  .data {
-    justify-content: center;
-  }
-  .values-container {
-    margin-right: 10px;
-  }
-}
 @media screen and (max-width: 600px) {
   .main-container {
     padding-left: 0px;

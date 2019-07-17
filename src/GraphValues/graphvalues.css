@@ -1,0 +1,31 @@
+.grap-info {
+  border-top: 1px solid #eeeeee;
+}
+.graph-header {
+  padding: 23px;
+}
+.divider {
+  width: 1px;
+  height: 40px;
+  background-color: #eeeeee;
+  margin: 0 15px;
+}
+.graph-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.graph-title:before {
+  content: "•"; 
+  font-weight: bold; 
+  margin-right: 4px;
+}
+.graph-info:nth-child(1){
+  color:blue;
+}
+.graph-info:nth-child(5){
+  color:green;
+}
+.graph-info:nth-child(3){
+  color:yellow;
+}
