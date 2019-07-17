@@ -39,11 +39,7 @@
     width: 46.3%;
   }
 }
-@media (max-width: 1250px) {
-  .single-container {
-    width: 46.3%;
-  }
-}
+
 @media (max-width: 1250px) {
   .single-container {
     width: 45.9%;

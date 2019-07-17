@@ -8,7 +8,7 @@ const GraphContent = props => {
       <div className="graph-header">
         <span>XX index</span>
       </div>
-      <div className="grap-info">
+      <div className="grap-info-top">
         <img
           src="https://files.slack.com/files-pri/TAWQZDNSG-FLH3MNTJT/captura.png"
           className="img-graph zoom"
