@@ -1,0 +1,17 @@
+.comment-list-container{
+  margin-top: 25px;
+  background-color: #ffffff;
+  height: auto;
+}
+
+.header-comment{
+  padding: 25px;
+  border-color: #e7e7e7;
+  border-width: 1px;
+  border-bottom-style: solid;
+}
+
+.comment-list{
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,41 @@
+body {
+  background-color: #eff1f5;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  line-height: 1.428;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+}
+
+.panel {
+  margin-left: 176px;
+  width: 70%;
+}
+
+.aside {
+  margin-right: 100px;
+  margin-left: 60px;
+  width: 32%;
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+  .panel {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .aside {
+    margin-left: 0px;
+    width: 100%;
+    margin-top: 20px;
+  }
+}

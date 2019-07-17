@@ -1,0 +1,22 @@
+.team-data-container {
+  font-size: 10px;
+  display: flex;
+  margin-left: 5%;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.team-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 5%;
+  border-radius: 50%;
+}
+
+.team-title {
+  width: 90px;
+  font-size: 10px;
+  overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}

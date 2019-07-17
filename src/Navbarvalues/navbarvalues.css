@@ -1,0 +1,17 @@
+.values-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.values-title {
+  font-size: 16px;
+  color: #9c9da1;
+  align-self: flex-end;
+}
+
+.value {
+  font-size: 26px;
+  align-self: center;
+  font-weight: bold;
+}

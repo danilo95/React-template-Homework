@@ -1,0 +1,57 @@
+.single-container {
+  padding: 10px;
+  border: 1px solid #eeeeee;
+  width: 30.1%;
+}
+
+.project-title {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+.project-data-container {
+  display: flex;
+}
+
+.project-description {
+  color: #bdbdbd;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.project-extrainfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-date {
+  font-size: 10px;
+  color: #e0e0e0;
+}
+
+.project-extrainfo-footer {
+  font-size: 12px;
+  color: #bdbdbd;
+}
+
+@media (max-width: 1350px) {
+  .single-container {
+    width: 46.3%;
+  }
+}
+@media (max-width: 1250px) {
+  .single-container {
+    width: 46.3%;
+  }
+}
+@media (max-width: 1250px) {
+  .single-container {
+    width: 45.9%;
+  }
+}
+
+@media (max-width: 1150px) {
+  .single-container {
+    width: 100%;
+  }
+}
